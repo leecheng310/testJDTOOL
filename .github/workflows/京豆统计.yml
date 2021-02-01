@@ -2,7 +2,7 @@ name: 京豆统计(当日)
 
 on:
   schedule:
-    - cron: '35 14 * * * '
+    - cron: '6 2,10,15,22 * * * '
   watch:
     types: [started]
 jobs:
